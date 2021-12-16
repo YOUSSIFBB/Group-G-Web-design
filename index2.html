@@ -1,0 +1,169 @@
+<!DOCTYPE HTML> 
+<html lang="en"> 
+	<head> 
+		<title>Web design group G</title>
+		<!--Basic Bootstarp resposnsive Pages W3sch links--> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<!--My external CSS and Js links-->
+		<link rel="stylesheet" href="stylesheet-G.css">
+		<script type="text/javascript" src="script.js"> </script>
+	</head>
+	
+	<body>
+	<!-- DIV header to insert logo and nav bars-->
+	<header class="header"> 
+			 <!-- Elements for headers should be placed here-->
+			<!--Logo placed in header -->
+		<img class="mylogo" alt="Logo" src="images_g/MainLogo.jpg">
+		<nav class="navbar navbar-style"> 
+		<!-- Bootstarp fixed width container,for responsive webdesing -->
+			<div class="container"> 
+				<div class="navbar-header">
+				<!-- bug fix leave empty-->
+				<a href="#"></a> 
+				
+				<!--RWD small drop down menu for navbar--> 
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button> 
+				
+				<!--RWD collape menu code div elemt visbality-->
+				<div class="collapse navbar-collapse" id="menu">
+				
+				
+				<!--Unordered lis for side bars with anchors-->
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutUs.html">About</a></li>
+					<li><a href="">Contacts</a></li>
+					<li><a href="index2.html">Products</a></li>
+					<li><a href="">Game</a></li>
+				</ul>
+				</div>
+			  </div>
+			</div>
+		</nav>
+	</header>
+	<!-- header section ends here -->
+	
+		<!--List of products section satrs here-->
+		 <section class="products" id="products"> 
+		
+			<h1>Products</h1>
+			<p> Click on the Images to Know more about our products</p>
+			<div class="row">   <!--id demo -->
+			  <div class="col-sm-4">
+			  <img alt="product" src="images_g/mu-4.jpg" onclick="myFunction()"> <!--Js first try !!!! -->
+			  <br>
+			  <br>
+			  <p id="demo">Price : $10.99</p>
+			  
+			  <a class="Buy buy-btt" href="#">Buy</a>
+			  </div>
+			  
+			
+			  <div class="col-sm-4">
+			  <img alt="product" src="images_g/mu-7.jpg" onclick="myFunction1()">
+			  <br>
+			  <br>
+			  <p id="demo1">Price : $7.65</p>
+			  <a class="Buy buy-btt" href="#">Buy</a>
+			  </div>
+			  
+			  
+		
+			  <div class="col-sm-4">
+			  <img alt="product" src="images_g/mu-2.jpg" onclick="myFunction2()">
+			  <br>
+			  <br>
+			  <p id="demo2">Price : $17.86</p>
+			  <a class="Buy buy-btt" href="#">Buy</a>
+			  </div>
+			  
+		<!--Second products section -->
+			<h2>Cakes</h2>
+			
+			<div class="row">
+			  <div class="col-sm-4">
+			  <img alt="product" src="images_g/mcu-3.jpg" onclick="myFunction3()">
+			  <br>
+			  <br>
+			  <p id="demo3">Price : $12.89</p>
+			  <a class="Buy buy-btt" href="#">Buy</a>
+			  </div>
+			  
+		
+			  <div class="col-sm-4">
+			  <img alt="product" src="images_g/mcu-2.jpg" onclick="myFunction4()">
+			  <br>
+			  <br>
+			  <p id="demo4">Price : $17.75</p>
+			  <a class="Buy buy-btt" href="#">Buy</a>
+			  </div>
+			  
+			  
+		
+			  <div class="col-sm-4">
+			  <img alt="product" src="images_g/mcu-1.jpg" onclick="myFunction5()">
+			  <br>
+			  <br>
+			  <p id="demo5">Price : $7.79</p>
+			  <a class="Buy buy-btt" href="#">Buy</a>
+			  </div>
+			  
+			  
+		<!--Third products section--> 
+		
+		<h2>Discounted Products</h2>
+			
+			<div class="row">
+			  <div class="col-sm-4">
+			  <img alt="product" src="images_g/mu-3.jpg" onclick="myFunction6()">
+			  <br>
+			  <br>
+			  <p id="demo6">Price : <del>$16.95</del> <ins>$14.56</ins></p>
+			  <a class="Buy buy-btt" href="#">Buy</a>
+			  </div>
+			  
+			  <div class="col-sm-4">
+			  <img alt="product" src="images_g/mu-8.jpg" onclick="myFunction7()">
+			  <br>
+			  <br>
+			  <p id="demo7">Price :<del>$16.95</del> <ins>$10.99</ins></p>
+			  <a class="Buy buy-btt" href="#">Buy</a>
+			  </div>
+			  
+			  
+			  <div class="col-sm-4">
+			  <img alt="product" src="images_g/menu-1.png" onclick="myFunction8()">
+			  <br>
+			  <br>
+			  <p id="demo8">Price :<del>$16.95</del> <ins>$8.99</ins></p>
+			  <a class="Buy buy-btt" href="#">Buy</a>
+			  </div>
+			  
+			  
+			 
+			 
+		
+		
+			
+		<!--List of products section Ends-->
+		
+		
+		
+	
+		
+		</section>
+	
+	
+	
+	
+	
+	
+	</body> 
+</html>
