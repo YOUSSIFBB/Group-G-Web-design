@@ -51,13 +51,13 @@ document.getElementById("demo6").onclick = function() {myFunction6()};
 document.getElementById("demo7").onclick = function() {myFunction7()};
 
 	function myFunction7() {
-		document.getElementById("demo7").innerHTML = "ugugiuyguygj7tuygjhyug";
+		document.getElementById("demo7").innerHTML = "CCCCCCCC";
 	}
 	
 document.getElementById("demo8").onclick = function() {myFunction8()};
 
 	function myFunction8() {
-		document.getElementById("demo8").innerHTML = "ugugiuyguygj7tuygjhyug";
+		document.getElementById("demo8").innerHTML = "CCCCC";
 	}
 	
 	
