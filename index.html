@@ -1,0 +1,105 @@
+<!DOCTYPE HTML> 
+<html lang="en"> 
+	<head> 
+		<title>Web design group G</title>
+		<!--Basic Bootstarp resposnsive Pages W3sch links--> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<!--My external CSS and Js links-->
+		<link rel="stylesheet" href="stylesheet-G.css">
+		<script type="text/javascript" src="script.js"> </script>
+	</head>
+	
+	<body>
+	<!-- DIV header to insert logo and nav bars-->
+	<header class="header"> 
+			 <!-- Elements for headers should be placed here-->
+			<!--Logo placed in header -->
+		<img class="mylogo" alt="Logo" src="images_g/MainLogo.jpg">
+		<nav class="navbar navbar-style"> 
+		<!-- Bootstarp fixed width container,for responsive webdesing -->
+			<div class="container"> 
+				<div class="navbar-header">
+				<!-- bug fix leave empty-->
+				<a href="#"></a> 
+				
+				<!--RWD small drop down menu for navbar--> 
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button> 
+				
+				<!--RWD collape menu code div elemt visbality-->
+				<div class="collapse navbar-collapse" id="menu">
+				
+				
+				<!--Unordered lis for side bars with anchors-->
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutUs.html">About</a></li>
+					<li><a href="">Contacts</a></li>
+					<li><a href="index2.html">Products</a></li>
+					<li><a href="">Game</a></li>
+				</ul>
+				</div>
+			  </div>
+			</div>
+		</nav>
+	</header>
+	<!-- header section ends here -->
+	<!-- User face welcoming content page--> 
+	<div class="mibox">
+	<!-- added element for extra padding box part of design-->
+		<div class="entrypage">
+		<h1> Welcome To The Café</h1>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+		an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+		It has survived not only five centuries, but also the leap into electronic typesetting,
+		remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset s
+		heets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
+		PageMaker including versions of Lorem Ipsum</p>
+
+		</div> 
+	</div>
+
+	<!--Home section/Content page-->
+	<section class="content" id="content">
+
+		<div class="home">
+			<h3>Bienvenue à la Café</h3>
+			<p> Award winning for the best student's coffe shop, rated by over 140,000 users world wide.<br> providing 
+			the best selections of coffe from all around the world. For the students, by the students</p>
+			<!-- buttons for home and follow -->
+			<a class="click click-first" id="hov1"href="#">Home</a>
+			
+			<a class="click click-second" id="hov" href="#">Follow us</a>
+		</div>
+
+
+		<script type="text/javascript"> 
+			// javaScript for onmouse function, Js events
+			
+			//decalre the function first
+			document.getElementById("hov").onmouseover = function() {mouseOver()};
+			document.getElementById("hov").onmouseout = function() {mouseOut()};
+			
+			// call function to apply JS event
+			function mouseOver(){
+				document.getElementById("hov").style.background = "black";
+			}
+			function mouseOut(){
+				document.getElementById("hov").style.background = "white";
+			}
+			
+			//JavaScript EventListener W3schools link: https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+			
+			document.getElementById("hov").addEventListener("click",function(){
+				alert("Instagram:\nFaceBook:\nTwitter");
+				}); 
+		</script>  
+			
+	</body>
+</html>

@@ -1,0 +1,193 @@
+/* Web design Group G CSS file */
+
+/*This section is for the header only*/
+.header{
+	padding:0px;
+	background-color:black;
+}
+
+/*body section*/
+body{ 
+	background-color:black;
+	background-image:url('images_g/');  
+}
+
+/* logo editing section*/
+.mylogo{ 
+	height:100px;
+	width: 170px;
+	padding: 2px 10px;
+	float:left;
+} 
+	/*provide shadow element to header section*/
+.navbar-style{
+	box-shadow: #FC0 1px 0 10px; 
+	padding:0px;
+	position: aboslute;
+}
+
+/* menu pop up decoration */
+.icon-bar{ 
+	background: black;
+	border: solid orange;
+}
+
+
+.navbar-header{
+	margin: 0 1rem;
+	float: right;
+}
+
+/* user entry welcome page section */
+.entrypage{
+	border:double 10px;
+	padding: 20px;
+	text-align: center;
+	background-color: black;
+	color:orange;
+}
+
+/*padding design*/
+.mibox{
+	padding: 40px; 
+	background-color:black; 
+	border: hidden;
+}
+
+.entrypage h1{
+	font-size: 70px; 
+	color:#FAEBD7; 
+	text-align: center;
+}
+
+
+/* End of welcome page */
+
+
+/* reference content link: https://www.youtube.com/watch?v=TVFu4-Kd4oM&list=WL&index=156&t=1192s */
+/*conten page background image positioning and margin*/
+.content{
+	min-height:100vh; 
+	display: flex; 
+	background-image: no-repeat;
+	align-items:center; 
+	background-image: url('images_g/back.jpeg');  
+	background-size: cover; 
+	background-position:center;
+	margin-left: auto; 
+	margin-right:auto;
+	max-width: 110rem;
+}
+/*Homepage font edeting section for eadings and paragraphs*/
+.home h3{
+	font-size: 70px; 
+	color: white;
+	text-transform:uppercase;
+}
+
+.home p{
+	color: orange;
+}
+
+/* main page buttons */ 
+a.click{
+	margin:30px 10px; 
+	width: 150px; 
+	padding: 10px;
+	border-radius: 20px;	
+}
+/*first button and second buttons achor tags design*/
+a.click-first{
+	background-color: orange; 
+	color: white;
+	
+}
+a.click-second{
+	color: orange;
+	border: solid orange;
+	background-color:white;
+	text-decoration: bold;
+}
+
+
+/*Side Bar unordered list edeting section*/
+li a{
+	color: orange;
+	background-color: black;
+}
+
+
+
+/* media queries bootstarp, resising heading and text font*/ 
+@media(max-width:991px){
+	.mibox{
+		font-size: 55%;
+	} 
+	.header{
+		padding:1.5rem 2rem;
+	}
+	.home{
+		font-size: 55%;
+	}
+	.home h3{
+		font-size: 40px; 
+	}
+	.entrypage h1{
+		font-size: 40px; 
+	}
+	.products{
+		border:solid black; 
+		background-color:orange;
+		font-size: 60%;
+		padding: 40px;
+	}
+	
+}
+
+/*-----End of home page section Youssef------*/
+
+/*Start of products section Youssef*/
+
+.products h1{
+	text-align:center; 
+	color:white;
+	font-size: 70px;
+}
+.products p{
+	color:white;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: center;
+}
+
+.products img{
+	width: 90px; 
+	height:90px;
+	box-shadow: #FC0 1px 0 10px;
+}
+
+a.Buy{
+	margin:30px 10px; 
+	width: 150px; 
+	padding: 10px;
+	border-radius: 20px;
+}
+
+a.buy-btt{
+	background-color: black; 
+	color: white;
+	border:solid orange;
+}
+
+/* colums section edit*/
+
+.col-sm-4{
+	background-color:black;
+	border:double orange;
+	text-align:center; 
+	padding: 7px;
+}
+
+
+
+
