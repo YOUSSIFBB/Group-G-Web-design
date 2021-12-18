@@ -1,0 +1,83 @@
+<!-- Start of contact us section Abdul Nafey -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- title of page -->
+           <title> Contact us </title>
+<!-- link to stylesheet and external JS -->
+           <link rel="stylesheet" href="stylesheet-G.css" />
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+		   <script type="text/javascript" src="script.js"> </script>
+		   <!--Google fonts for H1 only -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+		<!--Google Font 2 for p -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+</head>
+<body class="abdul">
+<!-- DIV container to insert heading and paragraph -->
+  <div class="container">
+  
+  <div style="text-align:center">
+    <h1>Contact Us</h1>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+<!-- DIV container to insert row and column which will have picture and a small paragraph -->
+  <div class="row">
+  <div class="column">
+<!-- picture of map -->
+  <img src="images_g/map.jpg" style="width:100%">
+<!-- small paragrph mentioning opening hours of store -->
+      <p> Opening hours: </p>
+      <br>
+          Monday - Friday:
+          9:00am - 6:00pm
+      <br>
+               Sunday:
+          9:00am - 3:00pm
+		<br>
+		<br>
+		<!-- Youssef Added time event DOM, W3schools-->
+		  <button id="ZZtp">Click to Check the time</button>
+		  <p id="demons"> </p>
+      <br>
+  </div>
+<!-- reference link: https://www.w3schools.com/howto/howto_css_contact_section.asp -->
+<!-- DIV container for forms to insert details in each section -->
+  <div class="column">
+<!-- forms section for inputing text -->
+   <form action="/action_page.php" name="AbdulsForm" onsubmit="return validateForm()" method="post"> 
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <label for="lname">Contact Number</label>
+        <input type="text" id="number" name="number" placeholder="Your contact number">
+        <label for="name">Email Address</label>
+        <input type="text" id="Email Address" name="email" placeholder="Your email address">
+        <label for="Preffered">Preffered store</label>
+        <select id="Store" name="Store">
+          <option value="Dublin">Dublin</option>
+          <option value="Galway">Galway</option>
+          <option value="Belfast">Belfast</option>
+        </select>
+        <label for="subject">Query</label>
+        <textarea id="subject" name="subject" placeholder="Submit your query " style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+<!-- form section ends -->
+  </div>
+  </div>
+  </div>
+	<script type="text/javascript">  
+	// Abduls's Js script for DOM event, time button display
+	
+	document.getElementById("ZZtp").addEventListener("click", displayDate);
+		function displayDate() {
+			document.getElementById("demons").innerHTML = Date();
+		}
+	</script>
+</body>
+</html>
+<!-- End of contact us section Abdul Nafey -->
