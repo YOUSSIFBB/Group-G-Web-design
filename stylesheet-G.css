@@ -1,0 +1,462 @@
+/* Web design Group G CSS file */
+/******** Youssef's CSS code ********/
+/*This section is for the header only*/
+.header{
+	padding:0px;
+	background-color:black;
+}
+
+/*body section*/
+body{ 
+	background-color:black;
+	background-image:url('images_g/'); 
+}
+
+/* logo editing section*/
+.mylogo{ 
+	height:100px;
+	width: 170px;
+	padding: 2px 10px;
+	float:left;
+} 
+	/*provide shadow element to header section*/
+.navbar-style{
+	box-shadow: #FC0 1px 0 10px; 
+	padding:0px;
+	position: aboslute;
+}
+
+/* menu pop up decoration, RWD */
+.icon-bar{ 
+	background: black;
+	border: solid orange;
+}
+
+/* Navigation Bar positioning section using div*/ 
+.navbar-header{
+	margin: 0 1rem;
+	float: right;
+}
+
+/* user entry welcome page section */
+.entrypage{
+	border:double 10px;
+	padding: 20px;
+	text-align: center;
+	background-color: black;
+	color:orange;
+}
+
+/*padding design*/
+.mibox{
+	padding: 40px; 
+	background-color:black; 
+	border: hidden;
+}
+
+.entrypage h1{
+	font-size: 70px; 
+	color:#FAEBD7; 
+	text-align: center;
+	font-family: 'Aref Ruqaa', serif; /* Google font h1*/
+}
+.entrypage p{
+	font-family: 'Aref Ruqaa', serif;
+	font-family: 'Source Serif Pro', serif; /*font for P */
+	font-size: 16px;
+}
+
+
+/* End of welcome page */
+
+
+/* reference content link: https://www.youtube.com/watch?v=TVFu4-Kd4oM&list=WL&index=156&t=1192s */
+/*conten page background image positioning and margin*/
+.content{
+	min-height:100vh; 
+	display: flex; 
+	background-image: no-repeat;
+	align-items:center; 
+	background-image: url('images_g/back.jpeg');  /*Image taken from reference link */
+	background-size: cover; 
+	background-position:center;
+	margin-left: auto; 
+	margin-right:auto;
+	max-width: 110rem;
+}
+/*Homepage font edeting section for eadings and paragraphs*/
+.home h3{
+	font-size: 70px; 
+	color: white;
+	text-transform:uppercase;
+	font-family: 'Aref Ruqaa', serif;
+}
+
+.home p{
+	color: orange;
+	font-family: 'Aref Ruqaa', serif;
+	font-family: 'Source Serif Pro', serif;
+	font-size:17px;
+}
+
+/* main page buttons */ 
+a.click{
+	margin:30px 10px; 
+	width: 150px; 
+	padding: 10px;
+	border-radius: 20px;	
+}
+/*first button and second buttons achor tags design*/
+a.click-first{
+	background-color: orange; 
+	color: white;
+	
+}
+a.click-second{
+	color: orange;
+	border: solid orange;
+	background-color:white;
+	text-decoration: bold;
+}
+
+
+/*Side Bar unordered list edeting section*/
+li a{
+	color: orange;
+	background-color: black;
+}
+
+
+
+/* Youssef media queries bootstarp, resising heading and text font*/ 
+@media(max-width:991px){
+	.mibox{
+		font-size: 55%;
+	} 
+	.header{
+		padding:1.5rem 2rem;
+	}
+	.home{
+		font-size: 55%;
+	}
+	.home h3{
+		font-size: 40px; 
+	}
+	.entrypage h1{
+		font-size: 40px; 
+	}
+	.products{
+		border:solid black; 
+		background-color:orange;
+		font-size: 60%;
+		padding: 40px;
+	}
+}
+
+
+/*-----End of home page section Youssef------*/
+
+/*Start of products section Youssef*/
+
+.products h1{
+	text-align:center; 
+	color:white;
+	font-size: 70px;
+	font-family: 'Aref Ruqaa', serif;
+}
+.products h2{
+	text-align:center; 
+	color:white;
+	font-size: 55px;
+	font-family: 'Aref Ruqaa', serif;
+}
+
+.products p{
+	color:white;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: center;
+	font-family: 'Aref Ruqaa', serif;
+	font-family: 'Source Serif Pro', serif;
+}
+
+.products img{
+	width: 90px; 
+	height: 95px;
+	box-shadow: #FC0 1px 0 10px;
+}
+/*Buy bottons code size and padding only */
+a.Buy{
+	margin:30px 10px; 
+	width: 150px; 
+	padding: 10px;
+	border-radius: 20px;
+}
+/*Buy bottons code colors only */
+a.buy-btt{
+	background-color: black; 
+	color: white;
+	border:solid orange;
+}
+/*onmouse over function but using CSS, apply this for products page only*/
+.products a:hover{
+	background-color: orange;
+}
+
+/* colums section edit*/
+
+.col-sm-4{
+	background-color:black;
+	border:double orange;
+	text-align:center; 
+	padding: 7px;
+}
+/*End of products section Youssef*/
+
+/************** ABduls CSS Codes ************/
+
+/*Start of contact us section Abdul Nafey*/
+
+/*body section class name Abdul*/
+.abdul {
+  background-color: #000000;
+  background-size: 100%;
+  background-position: center;
+  background-image: url('images_g/Coffee.jpeg');
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.abdul h1{
+	font-family: 'Aref Ruqaa', serif;
+}
+.abdul p{
+	font-family: 'Aref Ruqaa', serif;
+	font-family: 'Source Serif Pro', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* reference link: https://www.w3schools.com/howto/howto_css_contact_section.asp  */
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*-----End of contact us section Abdul Nafey------*/
+
+
+/********** Sereen's Section **********/
+
+/*ABOUT US PAGE CSS*/
+
+/* Site Heading */
+.site-heading h3{
+  font-size : 40px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* font CSS for paragraph */
+.bGcolor{
+  background-color: black;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-style: normal;
+  color: #494949;/*  hex code*/
+  font-size: 16px;
+  padding-bottom: 50px; /* padding for bottom of page*/
+}
+
+/* applying font to contecnt div section of About us page*/
+.bGcolor h1 {
+	font-family: 'Aref Ruqaa', serif;
+}
+
+.bGcolor p {
+	font-family: 'Aref Ruqaa', serif;
+	font-family: 'Source Serif Pro', serif;
+}
+
+
+/* font color */
+.row{
+  color: orange;
+} 
+/*  border for weblayout*/
+.border {
+  background: #e1e1e1;
+  height: 1px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+}
+/* This to position paragraph */
+.para-position {
+  padding-top:60px;
+  padding-bottom:60px;
+}
+/*  this is to position the coffee banner on the top of page*/
+ .image-banner {
+  margin-top:70px;
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images_g/banner.jpg"); /******** here too ***/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 110px;
+  padding-bottom:110px;
+}
+.col-md-6{
+  color: orange;
+}
+.navbarsss {  /* samll changes made here, youssef*/
+  font-size:52px;
+  font-weight: 600;
+  text-transform: none;
+  color: orange;
+}
+
+/* paragraph color*/
+.cl{
+    color:orange;
+}
+/* */
+.image-aboutus-para {
+  color:#fff;
+}
+/* Breadcum bar */
+.bread-bar {
+  background: #f9f9f9;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  min-height: 40px;
+  height: auto;
+  position: relative;
+  z-index: 555;
+  padding: 8px;
+}
+/*navBar, breadcrum color*/
+.bread-bar a{
+	background-color: white;
+}
+
+/* nav bar symbol */
+.breadcrumb > li + li::before {
+  content: "\203A";
+  color: #999;
+  padding: 0 8px;
+}
+
+/*GAME CSS*/
+
+
+.backgroundEff {
+  background-image: url("images_g/game.jpg"); /*changes Image destination*/
+  background-color: #cccccc;
+ }
+ .myHeading{
+   text-align: center;
+ }
+ 
+ 
+
+ 
+ /*creating canvas of the game*/
+ #game{
+   width: 300px;
+   height: 500px;
+   border: 4px solid black;
+   margin: auto; /* the game space in middle of page */
+   box-sizing: border-box;
+   overflow: hidden;/*this prevents the circle from the leaving the game div at the bottom*/
+   background-color: Lavender;
+ }
+ /*Css for triangle shape in the game*/
+ #character{ 
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid DarkSlateBlue;
+    position: relative;/*for the triangle to be at the bottom */
+    top: 300px;
+    left: 0px;
+ 
+ }
+ /*css for a circle shape in the game*/
+ #block{
+ width: 100px;
+ height: 100px;
+ top: 500px;
+ background-color: black;
+ border-radius: 100%;
+ position: relative;
+ animation: slide 1s infinite linear;/*allows shape to infintly slide down the screen*/
+ 
+ }
+ /* animation loop for the circle shape to continously slide down*/
+ @keyframes slide{
+   0%{top:-100px}; /*this is for position starting at top*/
+   1000%{top:500px};/**/
+ }
+ 
+ 
+ 
+/* 
+
+for P 
+
+font-family: 'Aref Ruqaa', serif;
+font-family: 'Source Serif Pro', serif;
+
+
+for H
+
+font-family: 'Aref Ruqaa', serif;
+
+
+*/ 
