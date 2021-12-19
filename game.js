@@ -1,4 +1,9 @@
 // using eventListner to check for any keys pressed, and if right/left pressed function will be carried out
+
+//reference Link 1: https://www.udacity.com/blog/2021/04/javascript-random-numbers.html
+//reference Link2: https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+//reference Link3: https://www.youtube.com/c/KnifeCircus
+
 document.addEventListener("keydown", event => {
   if(event.key==="ArrowLeft"){moveLeft();}
   if(event.key==="ArrowRight"){moveRight();}
